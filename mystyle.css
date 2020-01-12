@@ -7,18 +7,18 @@
 	.cust-grid{
 		display: flex;
 		justify-content: center;
-		flex-flow:row wrap;
-		margin-top: 10px;
+		flex-flow: row wrap;
+		margin: 0px;
+		padding: 0px;
 	}
 
 	.container-page{
 		background-color: white;
-		padding: 10px;
 	}
 
 	.page-footer {
 		margin-top: 1.5em;
-		background-color: grey;
+		background-color: #D0C7C9;
 		font-size: .8em;
 	}
 
@@ -60,10 +60,17 @@
 	  font-size: 5em;
 	}
 
-	
+	div.imagetiles div.col-md-6{
+ 		padding: 0px;
+	}
+
+	.carousel-inner{
+   			background: #000;
+	}
 
 	body {
-			font-family: 'Montserrat';font-size: 22px;
+			font-family: 'Montserrat';
+			font-size: 20px;
 			background-color: #4E204D;
 	}
 
@@ -73,13 +80,8 @@
 
 	p {
 		text-align: center;
-		fontsize: 12em;
-		padding: 10px 0px;
-	}
-
-	img {
-		padding: 0px;
-		margin: 0px;
+		font-size: 1.2em;
+		padding: 15px;
 	}
 
 	a {
@@ -87,22 +89,29 @@
 	}
 
 	a:hover {
-		color: pink;
+		color: white;
 		font-style: auto;
+		text-decoration: none !important;
+	}
+
+	@media (max-width: 576px) {
+			.shrinky {
+			font-size-adjust: 0.4 !important;
+		}
+
 	}
 
 
 	@media (min-width: 576px) {
+	
+
 		.container-page{
-			background-color: white;
 			margin: 0px 5%;
 		} 
 	}
 
 	@media (min-width: 992px) {
 		.container-page{
-			background-color: white;
 			margin: 0px 8%;
 		} 
 	}
-
