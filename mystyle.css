@@ -96,7 +96,7 @@
 
 	@media (max-width: 576px) {
 			.shrinky {
-			font-size-adjust: 0.4 !important;
+			font-size-adjust: 0.35 !important;
 		}
 
 	}
