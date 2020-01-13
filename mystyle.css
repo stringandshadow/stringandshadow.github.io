@@ -96,7 +96,7 @@
 
  	@media only screen and (max-width : 480px){
 			.navbar-brand {
-			font-size-adjust: 0.35 !important;
+			font-size: 0.5em !important;
 		}
 
 	}
