@@ -95,7 +95,7 @@
 	}
 
 	@media (max-width: 576px) {
-			.shrinky {
+			.navbar-brand {
 			font-size-adjust: 0.35 !important;
 		}
 
